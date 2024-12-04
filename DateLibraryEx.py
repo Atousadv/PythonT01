@@ -7,8 +7,14 @@
 # x=int(currentDate-age)
 # print(x)
 
-from datetime import datetime
-date=input("insert a date:")
-date_object=datetime.strptime(date,"%Y-%m-%d")
-week_day=date_object.strftime("%A")
-print(week_day)
+#task number two
+# from datetime import datetime
+# date=input("insert a date:")
+# date_object=datetime.strptime(date,"%Y-%m-%d")
+# week_day=date_object.strftime("%A")
+# print(week_day)
+
+
+import calendar
+year=int(input("insert a year:"))
+print(calendar.calendar(year))
