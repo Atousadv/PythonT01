@@ -19,7 +19,18 @@
 # year=int(input("insert a year:"))
 # print(calendar.calendar(year))
 
-import calendar
-month=int(input("tell me a month:"))
-year=int(input("tell me a year:"))
-print(calendar.month(year,month))
+# task number four
+# import calendar
+# month=int(input("tell me a month:"))
+# year=int(input("tell me a year:"))
+# print(calendar.month(year,month))
+
+from datetime import datetime, timedelta
+
+date_str = input("Insert a date (YYYY-MM-DD): ")
+days = int(input("Insert a number of days: "))
+
+date_obj = datetime.strptime(date_str, "%Y-%m-%d")
+new_date = date_obj + timedelta(days=days)
+
+print(new_date.strftime("%Y-%m-%d"))
