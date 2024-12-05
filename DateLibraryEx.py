@@ -14,7 +14,12 @@
 # week_day=date_object.strftime("%A")
 # print(week_day)
 
+#task number three
+# import calendar
+# year=int(input("insert a year:"))
+# print(calendar.calendar(year))
 
 import calendar
-year=int(input("insert a year:"))
-print(calendar.calendar(year))
+month=int(input("tell me a month:"))
+year=int(input("tell me a year:"))
+print(calendar.month(year,month))
