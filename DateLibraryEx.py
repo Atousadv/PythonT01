@@ -36,10 +36,17 @@
 
 # print(new_date.strftime("%Y-%m-%d"))
 
+# task number six
+# from datetime import datetime
+# month=int(input("tell me a month(1-12):"))
+# year=int(input("tell me a year:"))
+# firstday=datetime(year,month,1)
+# weekday=firstday.strftime("%A")
+# print(weekday)
 
-from datetime import datetime
-month=int(input("tell me a month(1-12):"))
-year=int(input("tell me a year:"))
-firstday=datetime(year,month,1)
-weekday=firstday.strftime("%A")
-print(weekday)
+import calendar
+year=int(input("insert a year:"))
+if calendar.isleap(year):
+ print(f"{year}is leap")
+else:
+ print(f"{year} is not a leap year")
