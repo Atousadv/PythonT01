@@ -44,9 +44,19 @@
 # weekday=firstday.strftime("%A")
 # print(weekday)
 
+# task number seven 
+# import calendar
+# year=int(input("insert a year:"))
+# if calendar.isleap(year):
+#  print(f"{year}is leap")
+# else:
+#  print(f"{year} is not a leap year")
+
 import calendar
-year=int(input("insert a year:"))
-if calendar.isleap(year):
- print(f"{year}is leap")
+year = int(input("Enter the year (e.g., 2024): "))
+month = int(input("Enter the month (1-12): "))
+first_day, _ = calendar.monthrange(year, month)
+if first_day == 6:
+    print(f"The first of {calendar.month_name[month]} {year} is a Sunday.")
 else:
- print(f"{year} is not a leap year")
+    print(f"The first of {calendar.month_name[month]} {year} is not a Sunday.")
