@@ -52,13 +52,19 @@
 # else:
 #  print(f"{year} is not a leap year")
 
-# 
+#task number eight
+# num1=int(input("enter a number:"))
+# num2=int(input("enter a number:"))
+# sum=num1+num2
+# sub=num1-num2
+# mult=num2*num1
+# div=num1/num2
+# print(sum,sub,mult,div)
+
 num1=int(input("enter a number:"))
-num2=int(input("enter a number:"))
-sum=num1+num2
-sub=num1-num2
-mult=num2*num1
-div=num1/num2
-print(sum,sub,mult,div)
+num2=num1**2
+print(num2)
+
+
 
 
