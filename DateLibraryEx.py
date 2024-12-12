@@ -52,11 +52,13 @@
 # else:
 #  print(f"{year} is not a leap year")
 
-import calendar
-year = int(input("Enter the year (e.g., 2024): "))
-month = int(input("Enter the month (1-12): "))
-first_day, _ = calendar.monthrange(year, month)
-if first_day == 6:
-    print(f"The first of {calendar.month_name[month]} {year} is a Sunday.")
-else:
-    print(f"The first of {calendar.month_name[month]} {year} is not a Sunday.")
+# 
+num1=int(input("enter a number:"))
+num2=int(input("enter a number:"))
+sum=num1+num2
+sub=num1-num2
+mult=num2*num1
+div=num1/num2
+print(sum,sub,mult,div)
+
+
