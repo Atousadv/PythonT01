@@ -61,9 +61,16 @@
 # div=num1/num2
 # print(sum,sub,mult,div)
 
+# task number nine
+# num1=int(input("enter a number:"))
+# num2=num1**2
+# print(num2)
+
 num1=int(input("enter a number:"))
-num2=num1**2
-print(num2)
+if (num1/2 ==0):
+ print("even")
+else:
+    print("odd")
 
 
 
