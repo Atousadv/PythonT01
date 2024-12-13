@@ -66,12 +66,17 @@
 # num2=num1**2
 # print(num2)
 
-num1=int(input("enter a number:"))
-if (num1/2 ==0):
- print("even")
-else:
-    print("odd")
+# task number ten
+# num1=int(input("enter a number:"))
+# if (num1/2 ==0):
+#  print("even")
+# else:
+#     print("odd")
 
+import math
+rad=int(input("enter circle's radius:"))
+A=math.pi*rad**2
+print(A)
 
 
 
