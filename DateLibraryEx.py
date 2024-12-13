@@ -73,10 +73,21 @@
 # else:
 #     print("odd")
 
+# task number eleven
+# import math
+# rad=int(input("enter circle's radius:"))
+# A=math.pi*rad**2
+# print(A)
+
+# task number twelve(compound intrest)
+# import math
+# principal=float(input("enter pricipal amount:"))
+# dur=int(input("enter duration:"))
+# A=principal*( (1+0.07)** dur)
+# print(A)
+
 import math
-rad=int(input("enter circle's radius:"))
-A=math.pi*rad**2
+principal=float(input("enter pricipal amount:"))
+dur=int(input("enter duration:"))
+A=(principal*dur*0.07)/100
 print(A)
-
-
-
