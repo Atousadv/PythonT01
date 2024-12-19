@@ -98,11 +98,20 @@
 # per=2*(len+wid)
 # print(per)
 
+# import math
+# n=int(input("how many numbers:"))
+# sumofNumbers=0
+# for i in range(1, n + 1):
+#     num = float(input(f"Enter number {i}: "))
+#     sumofNumbers += num
+# avg=sumofNumbers/n
+# print(avg)
+
 import math
-n=int(input("how many numbers:"))
-sumofNumbers=0
-for i in range(1, n + 1):
-    num = float(input(f"Enter number {i}: "))
-    sumofNumbers += num
-avg=sumofNumbers/n
-print(avg)
+tasks=int(input("how many tasks?"))
+perday=int(input("how many tasks per day?"))
+hours=int(input("how many hours for the whole project?"))
+dur=tasks/perday
+work=hours/dur
+print(work)
+
