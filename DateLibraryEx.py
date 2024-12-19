@@ -92,8 +92,17 @@
 # A=(principal*dur*0.07)/100
 # print(A)
 
+# import math
+# len=int(input("enter rectangle's length:"))
+# wid=int(input("enter rectangle's width:"))
+# per=2*(len+wid)
+# print(per)
+
 import math
-len=int(input("enter rectangle's length:"))
-wid=int(input("enter rectangle's width:"))
-per=2*(len+wid)
-print(per)
+n=int(input("how many numbers:"))
+sumofNumbers=0
+for i in range(1, n + 1):
+    num = float(input(f"Enter number {i}: "))
+    sumofNumbers += num
+avg=sumofNumbers/n
+print(avg)
